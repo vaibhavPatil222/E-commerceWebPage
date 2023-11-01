@@ -1,0 +1,149 @@
+
+/* ................................first navbar................................ */
+.n-div ul li{
+    float: right;
+    list-style-type: none;
+    padding: 0px 5px;
+    margin-right: 20px;
+}
+.n-div ul li a{
+    color: rgb(3, 3, 3);
+    font-size: 13px;
+    text-decoration: none;
+}
+
+/* ................................second navbar.............. */
+.n2-div ul li{
+    float: left;
+    list-style-type: none;
+    padding: 0px 20px;     
+}
+.n-div a:hover{
+    color: rgb(87, 124, 11);
+}
+
+.n2-div a:hover{
+    color: rgb(14, 228, 236);
+}
+
+.n2-div ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+.n2-div ul input{
+   padding-left: 60px;
+}
+.n2-div .space{
+    margin-left: 150px;
+}
+.n2-div .strong{
+color: rgb(0, 0, 0) ;
+font-weight: bolder;
+}
+.n2-div li .red{
+    color: red;
+}
+.n2-div .logo{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+/* ...............................cards................... */
+.cards{
+    display: flex;
+    float: left;
+    justify-content: space-evenly;
+    padding: 0px 0px;
+}
+.card-img-top{
+    height: 230px;
+   
+}
+.card{
+    margin: 50px 13px;
+
+}
+.sect .navbar{
+    height: 50px;
+    width: 100%;  
+}
+.sect .navbar .container-fluid{
+    display: flex;
+   
+}
+.sect .navbar-brand{
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+
+
+.high{
+    height: 500px;
+}
+
+.imgh{
+    height: 500px;
+}
+
+.add{
+    height: 130px;
+    margin: 50px 0px;
+    background-color: rgb(236, 226, 33);
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+
+.butt{
+    padding: 10px 50px;
+    letter-spacing: 3px;
+    margin-top: 40px;
+}
+
+
+
+/* .................................footer............... */
+.footer{
+    display: flex;
+    float: left;
+    padding: 30px 150px;
+    background-color: rgb(178, 215, 217);
+    
+}
+.footer ul li {
+    list-style-type: none;
+    
+}
+.footer ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+.footer .fh{
+    font-weight: bolder;
+    font-size: large;
+}
+.footer .fd{
+    padding: 0px 30px;
+}
+
+
+
+.lastf{
+    height: 100px;
+     background-color: cadetblue;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+}
+
+
+.carousel-inner .carousel-item .img{
+    animation: 4s infinite;
+}
